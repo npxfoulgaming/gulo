@@ -46,7 +46,9 @@
       <option value="spawn">Spawn Items</option>
       <option value="weeklytask">Weekly Task</option>
     </select>
-<!-- <option value="job">Job Overrides</option> -->
+
+<!--       <option value="job">Job Overrides</option> -->
+
     <div id="dynamicFields" class="space-y-4 mb-4"></div>
 
     <div class="flex flex-wrap items-center gap-3 border-t border-dashed border-gray-600 pt-4">
@@ -86,7 +88,7 @@
       .then(data => itemMap = data)
       .catch(() => alert('Failed to load item map from items.json'));
 
-      function changeType() {
+function changeType() {
     dynamicFields.innerHTML = '';
     const type = typeSelector.value;
 
@@ -279,41 +281,88 @@ function handleAction() {
   });
 }
 
-    function showDropdown(input) {
-      const dropdown = input.parentElement.querySelector('.dropdown-list');
-      dropdown.innerHTML = '';
-      const query = input.value.toLowerCase();
-      const results = Object.entries(itemMap).filter(([key, val]) => val.label.toLowerCase().includes(query));
-      if (results.length === 0) {
-        dropdown.classList.add('hidden');
-        return;
-      }
+let currentFocus = -1;
 
-      results.forEach(([key, val]) => {
-        const div = document.createElement('div');
-        div.className = 'dropdown-item';
-        div.textContent = `${val.label}`;
-        div.onclick = () => {
-          input.value = key; // Save key, not label
-          dropdown.classList.add('hidden');
-        };
-        dropdown.appendChild(div);
-      });
-      dropdown.classList.remove('hidden');
-    }
+function showDropdown(input) {
+  const dropdown = input.parentElement.querySelector('.dropdown-list');
+  dropdown.innerHTML = '';
+  const query = input.value.toLowerCase();
+  const results = Object.entries(itemMap).filter(([key, val]) => val.label.toLowerCase().includes(query));
 
-    document.body.addEventListener('click', () => {
-      document.querySelectorAll('.dropdown-list').forEach(d => d.classList.add('hidden'));
-    });
+  if (results.length === 0) {
+    dropdown.classList.add('hidden');
+    return;
+  }
 
-    changeType();
+  results.forEach(([key, val], index) => {
+    const div = document.createElement('div');
+    div.className = 'dropdown-item';
+    div.textContent = `${val.label}`;
+    div.dataset.key = key;
+    div.onclick = () => {
+      input.value = key;
+      dropdown.classList.add('hidden');
+      currentFocus = -1;
+    };
+    dropdown.appendChild(div);
+  });
 
-    function clearOverrides() {
+  dropdown.classList.remove('hidden');
+  currentFocus = -1;
+}
+
+document.body.addEventListener('click', () => {
+document.querySelectorAll('.dropdown-list').forEach(d => d.classList.add('hidden'));
+});
+
+changeType();
+
+function clearOverrides() {
   // Loop through all the input fields and clear their values
   const inputs = dynamicFields.querySelectorAll('input');
   inputs.forEach(input => {
     input.value = '';
   });
+}
+
+document.addEventListener("keydown", function(e) {
+  const activeInput = document.activeElement;
+  if (!activeInput.classList.contains("item-input")) return;
+
+  const dropdown = activeInput.parentElement.querySelector('.dropdown-list');
+  const items = dropdown.querySelectorAll('.dropdown-item');
+
+  if (!items.length || dropdown.classList.contains("hidden")) return;
+
+  const key = e.key;
+
+  if (["ArrowDown", "ArrowUp", "ArrowRight", "ArrowLeft"].includes(key)) {
+    e.preventDefault();
+    if (key === "ArrowDown" || key === "ArrowRight") {
+      currentFocus = (currentFocus + 1) % items.length;
+    } else if (key === "ArrowUp" || key === "ArrowLeft") {
+      currentFocus = (currentFocus - 1 + items.length) % items.length;
+    }
+    setActive(items);
+  } else if (key === "Enter") {
+    e.preventDefault();
+    if (currentFocus > -1 && items[currentFocus]) {
+      activeInput.value = items[currentFocus].dataset.key;
+      dropdown.classList.add("hidden");
+      currentFocus = -1;
+    }
+  } else if (key === "Escape") {
+    dropdown.classList.add("hidden");
+    currentFocus = -1;
+  }
+});
+
+function setActive(items) {
+  items.forEach(item => item.classList.remove("bg-gray-600"));
+  if (currentFocus > -1 && items[currentFocus]) {
+    items[currentFocus].classList.add("bg-gray-600");
+    items[currentFocus].scrollIntoView({ block: 'nearest' });
+  }
 }
 
   </script>
