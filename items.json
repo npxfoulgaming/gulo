@@ -1,0 +1,7082 @@
+{
+    
+    "paper_bag": {
+        "label": "Paper Bag",
+        "weight": 1,
+        "stackable": true
+    },
+    "steel_tube": {
+        "label": "Steel Tube",
+        "weight": 5,
+        "stackable": true
+    },
+    "gemstone_scanner": {
+        "label": "Gemstone Scanner",
+        "weight": 10,
+        "stackable": false
+    },
+    "pet_duck": {
+        "label": "Quacktastic Sidekick",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "tungsten_plate": {
+        "label": "Tungsten Plate",
+        "weight": 6,
+        "stackable": true
+    },
+    "pet_shiba": {
+        "label": "Paw Patrol",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "pizza_cheese": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Pizza Cheese",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_knuckle": {
+        "label": "Brass Knuckles",
+        "stackable": false,
+        "weight": 6,
+        "isWeapon": true
+    },
+    "bread_loaf": {
+        "label": "Bread Loaf",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "binoculars": {
+        "label": "Binoculars",
+        "weight": 10,
+        "stackable": true
+    },
+    "watch": {
+        "label": "Watch",
+        "weight": 1,
+        "stackable": true
+    },
+    "reeses_pieces": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Reese's Pieces",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_heavypistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Heavy Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "generic_prescription": {
+        "label": "Generic Prescription",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "almond_joy": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Almond Joy",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "donut": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Donut",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "rum": {
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "label": "Rum",
+        "grillMultiplier": 8,
+        "stackable": true
+    },
+    "aluminium_rod": {
+        "label": "Aluminium Rod",
+        "weight": 5,
+        "stackable": true
+    },
+    "weapon_militaryrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Military Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "tostada": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Tostada",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_hatchet": {
+        "label": "Hatchet",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "onyx": {
+        "label": "Onyx",
+        "weight": 1,
+        "stackable": true
+    },
+    "advanced_lockpick": {
+        "label": "Advanced Lockpick",
+        "weight": 8,
+        "stackable": true
+    },
+    "popcorn": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Popcorn",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "opal_ring": {
+        "label": "Opal Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "paper_wide": {
+        "label": "Photo Paper (14x8.5)",
+        "weight": 1,
+        "stackable": true
+    },
+    "wood": {
+        "label": "Wood",
+        "grillable": "charcoal",
+        "weight": 10,
+        "stackable": true
+    },
+    "dog_food": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Dog Food",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "decryption_key_blue": {
+        "label": "Blue Decryption Key",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 1728000,
+        "brokenLabel": false
+        }
+    },
+    "closed_paper_bag": {
+        "label": "Closed Paper Bag",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "copper_nugget": {
+        "label": "Copper Nugget",
+        "weight": 1,
+        "stackable": true
+    },
+    "pigeon_statue": {
+        "label": "Pigeon Statue",
+        "weight": 8,
+        "stackable": true
+    },
+    "clothing_bag": {
+        "label": "Clothing Bag",
+        "weight": 30,
+        "stackable": false
+    },
+    "hen_0": {
+        "label": "Chicken",
+        "renameable": true,
+        "weight": 18,
+        "stackable": false
+    },
+    "speed_sign": {
+        "label": "Speed Limit Sign",
+        "weight": 4,
+        "stackable": true
+    },
+    "calico_rockfish": {
+        "label": "Calico Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "ammo_box": {
+        "label": "Big Ammo Box",
+        "weight": 6,
+        "stackable": true
+    },
+    "belgian_fries": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Belgian Fries",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "rolling_paper": {
+        "label": "Rolling Paper",
+        "weight": 1,
+        "stackable": true
+    },
+    "brownies": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Brownies",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "rabbit_1": {
+        "label": "Light Brown Rabbit",
+        "renameable": true,
+        "weight": 20,
+        "stackable": false
+    },
+    "weapon_gadgetpistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Perico Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "chip_10": {
+        "label": "$10 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "raw_ruby": {
+        "label": "Raw Ruby",
+        "weight": 3,
+        "stackable": true
+    },
+    "pet_cat_grey": {
+        "label": "Lazy Gizmo",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "gopher_rockfish": {
+        "label": "Gopher Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_vfcombatpistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "VF Combat Pistol",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "pet_raccoon": {
+        "label": "Rascal the Raccoon",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "black_dildo": {
+        "label": "Black Dildo",
+        "weight": 4,
+        "stackable": false
+    },
+    "extended_pistol_clip": {
+        "label": "Extended Clip (Pistol)",
+        "weight": 2,
+        "stackable": true
+    },
+    "polymer_resin": {
+        "label": "Polymer Resin",
+        "weight": 2,
+        "stackable": true
+    },
+    "raw_sapphire": {
+        "label": "Raw Sapphire",
+        "weight": 3,
+        "stackable": true
+    },
+    "weapon_golfclub": {
+        "label": "Golf Club",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "vodka": {
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "label": "Vodka",
+        "grillMultiplier": 8,
+        "stackable": true
+    },
+    "morganite": {
+        "label": "Morganite",
+        "weight": 1,
+        "stackable": true
+    },
+    "guinness_beer": {
+        "stackable": true,
+        "drinkable": true,
+        "food": true,
+        "label": "Guinness",
+        "weight": 1
+    },
+    "tomato_sauce": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Tomato Sauce",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "peach": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Peach",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "dog_0": {
+        "label": "Westie Terrier",
+        "renameable": true,
+        "weight": 22,
+        "stackable": false
+    },
+    "motor_oil": {
+        "label": "Motor Oil",
+        "weight": 12,
+        "stackable": true
+    },
+    "glass_breaker": {
+        "label": "Emergency Window Breaker",
+        "weight": 6,
+        "stackable": false
+    },
+    "disposable_grill": {
+        "label": "Disposable Grill",
+        "weight": 5,
+        "stackable": true
+    },
+    "emerald_ring": {
+        "label": "Emerald Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "rose": {
+        "label": "Rose",
+        "weight": 4,
+        "stackable": false
+    },
+    "sapphire_dust": {
+        "label": "Sapphire Dust",
+        "weight": 1,
+        "stackable": true
+    },
+    "sapphire": {
+        "label": "Sapphire",
+        "weight": 1,
+        "stackable": true
+    },
+    "handcuffs": {
+        "label": "Handcuffs",
+        "weight": 5,
+        "stackable": true
+    },
+    "olive_rockfish": {
+        "label": "Olive Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "treasure_map": {
+        "label": "Treasure Map",
+        "weight": 1,
+        "stackable": false
+    },
+    "bcso_badge": {
+        "label": "BCSO Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "arena_pill": {
+        "label": "Arena Pill",
+        "weight": 1,
+        "stackable": true
+    },
+    "pizza_pepperoni_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Pepperoni Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "card_paper": {
+        "label": "Card Paper (9x5)",
+        "weight": 1,
+        "stackable": true
+    },
+    "olives": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Olives",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_endurancepistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Endurance Pistol",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "asahi_beer": {
+        "stackable": true,
+        "drinkable": true,
+        "food": true,
+        "label": "Asahi Beer",
+        "weight": 1
+    },
+    "drill_small": {
+        "label": "Small Drill",
+        "stackable": true,
+        "weight": 15,
+        "degradeAfter": {
+        "time": 2419200,
+        "brokenLabel": false
+        }
+    },
+    "spring_onions": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Spring Onions",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "fish_sauce": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Fish Sauce",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "skin_brushstroke": {
+        "label": "Brushstroke Skin",
+        "weight": 5,
+        "stackable": true
+    },
+    "hotwheels_towmater": {
+        "label": "Tow Mater",
+        "weight": 5,
+        "stackable": false
+    },
+    "weapon_addon_dp9": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "D&P 9 Pistol",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "weapon_pumpshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Pump Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "chicken_breast": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Chicken Breast",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_candycane": {
+        "label": "Candy Cane",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "titanium_nugget": {
+        "label": "Titanium Nugget",
+        "weight": 3,
+        "stackable": true
+    },
+    "rock_sole": {
+        "label": "Rock Sole",
+        "weight": 0,
+        "stackable": false
+    },
+    "smg_upper_receiver": {
+        "label": "SMG Upper Receiver",
+        "stackable": true,
+        "weight": 5,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "rabbit_2": {
+        "label": "Tan Rabbit",
+        "renameable": true,
+        "weight": 20,
+        "stackable": false
+    },
+    "rougheye_rockfish": {
+        "label": "Rougheye Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "coin_bag": {
+        "label": "Coin Bag",
+        "container": true,
+        "weight": 5,
+        "stackable": false
+    },
+    "weapon_addon_357mag": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "357 Magnum",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "processed_metal": {
+        "label": "Processed Metal",
+        "weight": 5,
+        "stackable": true
+    },
+    "refillable_bottle": {
+        "label": "Refillable Bottle",
+        "weight": 3,
+        "stackable": false
+    },
+    "acetone": {
+        "label": "Acetone",
+        "weight": 4,
+        "stackable": true
+    },
+    "pizza_pepperoni": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Pepperoni Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "boosting_tablet": {
+        "label": "Boosting Tablet",
+        "weight": 10,
+        "stackable": false
+    },
+    "bacon_burger": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Bacon- Cheeseburger",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "shotgun_lower_receiver": {
+        "label": "Shotgun Lower Receiver",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "shovel": {
+        "label": "Shovel",
+        "weight": 10,
+        "stackable": true
+    },
+    "raw_emerald": {
+        "label": "Raw Emerald",
+        "weight": 3,
+        "stackable": true
+    },
+    "cocaine_brick": {
+        "label": "Cocaine Brick",
+        "stackable": true,
+        "weight": 20,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "weapon_battlerifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Battle Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "body_armor": {
+        "label": "Body Armor",
+        "weight": 20,
+        "stackable": true
+    },
+    "wonder_waffle": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Wonder Waffle",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "rubber": {
+        "label": "Uncured Rubber",
+        "weight": 2,
+        "stackable": true
+    },
+    "pineapple_cake": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Pineapple Cake",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pizza_diavola": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Diavola Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "radio_chop_shop": {
+        "label": "Chop Shop Radio",
+        "weight": 10,
+        "stackable": true
+    },
+    "raw_diamond": {
+        "label": "Raw Diamond",
+        "weight": 3,
+        "stackable": true
+    },
+    "deck_cats": {
+        "label": "Feline Frenzy Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "cigarette": {
+        "label": "Cigarette",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "weapon_grenadelauncher": {
+        "label": "Grenade Launcher",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_carbinerifle_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Carbine Rifle Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "ruby": {
+        "label": "Ruby",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_grenadelauncher_smoke": {
+        "label": "Grenade Launcher Smoke",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_heavyrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Heavy Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "hostage_2": {
+        "label": "Hostage 2",
+        "weight": 4,
+        "stackable": true
+    },
+    "pistol_sight": {
+        "label": "Pistol Sight",
+        "weight": 1,
+        "stackable": true
+    },
+    "smg_lower_receiver_mk2": {
+        "label": "SMG Lower Receiver MK2",
+        "stackable": true,
+        "weight": 6,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "weapon_unarmed": {
+        "label": "Fist",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_machete": {
+        "label": "Machete",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "yelloweye_rockfish_adult": {
+        "label": "Yelloweye Rockfish (Adult)",
+        "weight": 0,
+        "stackable": false
+    },
+    "big_tv": {
+        "label": "Big TV",
+        "weight": 65,
+        "stackable": false
+    },
+    "vegan_sandwich": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Vegan Sandwich",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "smoothie": {
+        "weight": 3,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Smoothie",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "whiskey": {
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "label": "Whiskey",
+        "grillMultiplier": 8,
+        "stackable": true
+    },
+    "tic_tac": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Tic Tac",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "bcfd_badge": {
+        "label": "BCFD",
+        "weight": 0,
+        "stackable": false
+    },
+    "bell_pepper": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Bell Pepper",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "projectile": {
+        "label": "Projectile",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_pistolxm3": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "WM 29 Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "shotgun_lower_receiver_mk2": {
+        "label": "Shotgun Lower Receiver MK2",
+        "stackable": true,
+        "weight": 5,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "mozarella": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Mozarella",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_crowbar": {
+        "label": "Crowbar",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "chip_50": {
+        "label": "$50 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "charcoal": {
+        "grilled": true,
+        "weight": 10,
+        "stackable": true,
+        "label": "Charcoal",
+        "grillFuel": true
+    },
+    "flight_radar": {
+        "label": "Flight Radar",
+        "weight": 5,
+        "stackable": true
+    },
+    "flour": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Flour",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pizza_diavola_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Diavola Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "green_wonderland_delivery": {
+        "label": "Green Wonderland Bag",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "titanium_bar": {
+        "label": "Titanium Bar",
+        "weight": 8,
+        "stackable": true
+    },
+    "bandages": {
+        "label": "Bandages",
+        "weight": 2,
+        "stackable": true
+    },
+    "berry_cake": {
+        "stackable": true,
+        "food": true,
+        "weight": 6,
+        "label": "Berry Cake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "blood_vial": {
+        "label": "Blood Vial",
+        "stackable": false,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": false
+        }
+    },
+    "pet_mouse": {
+        "label": "Pudgy Pal",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "weapon_bat": {
+        "label": "Baseball Bat",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "zinc": {
+        "label": "Zinc",
+        "weight": 1,
+        "stackable": true
+    },
+    "lunch_box": {
+        "label": "Lunch Box",
+        "container": true,
+        "weight": 8,
+        "stackable": false
+    },
+    "radio_decryptor": {
+        "label": "Radio Decrypter",
+        "weight": 10,
+        "stackable": false
+    },
+    "pizza_vegetarian_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Vegetarian Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "necklaces": {
+        "label": "Necklaces",
+        "weight": 2,
+        "stackable": true
+    },
+    "gold_bar": {
+        "label": "Gold Bar",
+        "weight": 10,
+        "stackable": true
+    },
+    "silvergray_rockfish": {
+        "label": "Silvergray Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "raw_opal": {
+        "label": "Raw Opal",
+        "weight": 3,
+        "stackable": true
+    },
+    "quillback_rockfish_variant_1": {
+        "label": "Quillback Rockfish (Variant 1)",
+        "weight": 0,
+        "stackable": false
+    },
+    "evidence_box": {
+        "weight": 4,
+        "label": "Evidence Box",
+        "container": true,
+        "renameable": true,
+        "stackable": false
+    },
+    "pepsi": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Pepsi",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pizza_slice_diavola": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Diavola Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pepperoni": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Pepperoni",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "stungun_ammo": {
+        "label": "Taser Cartridge",
+        "weight": 1,
+        "stackable": true
+    },
+    "capri_sun": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Capri Sun",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "sushi": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Sushi",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_flashlight": {
+        "label": "Flashlight",
+        "stackable": false,
+        "weight": 6,
+        "isWeapon": true
+    },
+    "grimace_shake": {
+        "weight": 2,
+        "drinkable": true,
+        "drug": true,
+        "stackable": true,
+        "label": "Grimace Shake",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_switchblade": {
+        "label": "Switchblade",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "mini_police": {
+        "label": "Model Police Car",
+        "weight": 5,
+        "stackable": false
+    },
+    "weapon_hazardcan": {
+        "label": "Hazardous Jerry Can",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "kiwi": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Kiwi",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_dagger": {
+        "label": "Antique Cavalry Dagger",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "state_security_badge": {
+        "label": "State Security ID",
+        "weight": 0,
+        "stackable": false
+    },
+    "towel": {
+        "label": "Towel",
+        "weight": 2,
+        "stackable": true
+    },
+    "bento_box": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Bento Box",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "mango": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Mango",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ruby_dust": {
+        "label": "Ruby Dust",
+        "weight": 1,
+        "stackable": true
+    },
+    "treefish": {
+        "label": "Treefish",
+        "weight": 0,
+        "stackable": false
+    },
+    "carrot": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Carrot",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "rifle_ammo": {
+        "label": "Rifle Ammo",
+        "weight": 1,
+        "stackable": true
+    },
+    "car_keys": {
+        "label": "Car Keys",
+        "weight": 4,
+        "stackable": false
+    },
+    "avocado_smoothie": {
+        "weight": 5,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Avocado Smoothie",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "blackspotted_rockfish": {
+        "label": "Blackspotted Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "pet_cat": {
+        "label": "Shoulder Snuggler",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "cigarette_pack": {
+        "label": "Cigarette Pack",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "high_tensile_spring": {
+        "label": "High Tensile Spring",
+        "weight": 4,
+        "stackable": true
+    },
+    "press_pass": {
+        "label": "Press Pass",
+        "weight": 0,
+        "stackable": false
+    },
+    "pomegranate": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Pomegranate",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_wrench": {
+        "label": "Pipe Wrench",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "melkehjerter": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Melkehjerter",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_mp9": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "B&T MP9",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "twitter_verification": {
+        "label": "Twitter Verification",
+        "weight": 0,
+        "stackable": true
+    },
+    "cigar_olivia": {
+        "label": "Oliva Serie G",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "table": {
+        "label": "Table",
+        "weight": 10,
+        "stackable": true
+    },
+    "weapon_compactrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 18,
+        "label": "Compact Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "pole": {
+        "label": "Yellow Pole",
+        "weight": 4,
+        "stackable": true
+    },
+    "kelp_greenling_female": {
+        "label": "Kelp Greenling (female)",
+        "weight": 0,
+        "stackable": false
+    },
+    "sandwich": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Ham Sandwich",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "absinthe": {
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "label": "Absinthe",
+        "grillMultiplier": 8,
+        "stackable": true
+    },
+    "weapon_mg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "MG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "keycard_blue": {
+        "label": "Blue Keycard",
+        "weight": 1,
+        "stackable": true
+    },
+    "ftp_badge": {
+        "label": "FTP Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "tomato_juice": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Tomato Juice",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "device_printout": {
+        "label": "Device Printout",
+        "weight": 0,
+        "stackable": false
+    },
+    "label_printer": {
+        "label": "Label Printer",
+        "weight": 10,
+        "stackable": false
+    },
+    "chocolate_cake": {
+        "stackable": true,
+        "food": true,
+        "weight": 6,
+        "label": "Chocolate Cake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "note": {
+        "label": "Note",
+        "weight": 2,
+        "stackable": false
+    },
+    "redbanded_rockfish": {
+        "label": "Redbanded Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "train_pass_god_tier": {
+        "label": "God Tier",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_addon_mcxspear": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Sig MCX Spear",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "deck_simpsons": {
+        "label": "Bart's Mayhem Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "weed_bud": {
+        "stackable": true,
+        "weight": 4,
+        "drug": true,
+        "label": "Weed Bud",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "train_pass": {
+        "label": "Train Pass",
+        "weight": 1,
+        "stackable": true
+    },
+    "cigar_cohiba": {
+        "label": "Cohiba",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "weapon_bzgas": {
+        "label": "BZ Gas",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "water": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Water",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_snspistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "SNS Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "tuner_chip": {
+        "label": "Tuner Chip",
+        "weight": 10,
+        "stackable": true
+    },
+    "microphone_bug": {
+        "label": "Microphone Bug",
+        "weight": 1,
+        "stackable": false
+    },
+    "rusty_cannon_ball": {
+        "label": "Rusty Cannon Ball",
+        "weight": 10,
+        "stackable": true
+    },
+    "chip": {
+        "label": "Chip",
+        "stackable": true,
+        "weight": 5,
+        "degradeAfter": {
+        "time": 1728000,
+        "brokenLabel": false
+        }
+    },
+    "compass": {
+        "label": "Compass",
+        "weight": 1,
+        "stackable": true
+    },
+    "fanta_light": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Fanta Light",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cat_food": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Cat Food",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "grass_rockfish_dark_version": {
+        "label": "Grass Rockfish (Dark Version)",
+        "weight": 0,
+        "stackable": false
+    },
+    "blood_test_kit": {
+        "label": "Blood Test Kit",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 1209600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_addon_huntingrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Hunting Rifle",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "multi_tool": {
+        "weaponName": "weapon_addon_multitool",
+        "stackable": false,
+        "weight": 12,
+        "label": "Multi Tool",
+        "degradeAfter": {
+        "time": 3888000,
+        "brokenLabel": false
+        }
+    },
+    "weed_gummies": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Weed Gummies",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "banana_peel": {
+        "label": "Banana Peel",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "casing": {
+        "label": "Casing",
+        "weight": 1,
+        "stackable": true
+    },
+    "diamond_ring": {
+        "label": "Diamond Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "mini_car": {
+        "label": "Model Civilian Car",
+        "weight": 5,
+        "stackable": false
+    },
+    "doc_badge": {
+        "label": "DOC Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "dab_pen": {
+        "label": "Penjamin",
+        "stackable": true,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 2592000,
+        "brokenLabel": "pen_empty"
+        }
+    },
+    "pacific_sand_sole": {
+        "label": "Pacific Sand Sole",
+        "weight": 0,
+        "stackable": false
+    },
+    "greenstriped_rockfish": {
+        "label": "Greenstriped Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "ancient_ring": {
+        "label": "Ancient Ring",
+        "weight": 4,
+        "stackable": false
+    },
+    "cappuccino": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Cappuccino",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "keycard_red": {
+        "label": "Red Keycard",
+        "weight": 1,
+        "stackable": true
+    },
+    "pizza_hawaiian_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Hawaiian Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "paint": {
+        "label": "Paint",
+        "weight": 5,
+        "stackable": true
+    },
+    "printer": {
+        "label": "Printer",
+        "weight": 15,
+        "stackable": false
+    },
+    "weapon_knife": {
+        "label": "Knife",
+        "stackable": false,
+        "weight": 8,
+        "isWeapon": true
+    },
+    "weapon_doubleaction": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Double Action Revolver",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_precisionrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Precision Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weed_seeds": {
+        "label": "Weed Seeds",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_proxmine": {
+        "label": "Proximity Mines",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "savings_bond_1000": {
+        "label": "$1,000 Savings Bond",
+        "weight": 4,
+        "stackable": true
+    },
+    "pet_owl": {
+        "label": "Hooty",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "savings_bond_2000": {
+        "label": "$2,000 Savings Bond",
+        "weight": 6,
+        "stackable": true
+    },
+    "weapon_tecpistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 12,
+        "label": "Tactical SMG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "gold_ore": {
+        "label": "Gold Ore",
+        "weight": 12,
+        "stackable": true
+    },
+    "weapon_specialcarbine_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Special Carbine Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "toolbox": {
+        "label": "Toolbox",
+        "container": true,
+        "weight": 18,
+        "stackable": false
+    },
+    "chorus_fruit": {
+        "food": true,
+        "label": "Chorus Fruit",
+        "weight": 4,
+        "stackable": true
+    },
+    "decryption_key_red": {
+        "label": "Red Decryption Key",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 1728000,
+        "brokenLabel": false
+        }
+    },
+    "weapon_addon_ddm4v7": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "DDM4V7",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "flag_rockfish": {
+        "label": "Flag Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "pet_banana_cat": {
+        "label": "Banana Cat",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "tv_remote": {
+        "label": "TV Remote",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_smokegrenade": {
+        "label": "Smoke Grenade",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_heavysniper_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Heavy Sniper Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "gadget_parachute": {
+        "label": "Parachute",
+        "stackable": true,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "kinder_surprise": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Kinder Susprise Egg",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "basic_repair_kit": {
+        "label": "Basic Repair Kit",
+        "weight": 6,
+        "stackable": true
+    },
+    "skateboard": {
+        "label": "Skateboard",
+        "weight": 14,
+        "stackable": false
+    },
+    "copper_wire": {
+        "label": "Copper Wire",
+        "weight": 2,
+        "stackable": true
+    },
+    "honeycomb_rockfish": {
+        "label": "Honeycomb Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_colt": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Colt 1851 Navy",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "weapon_addon_reaper": {
+        "label": "Reaper",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "pilot_license": {
+        "label": "Pilot License",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_bullpuprifle_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Bullpup Rifle Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "bean_machine_delivery": {
+        "label": "Bean Machine Delivery",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "hot_chocolate": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Hot Chocolate",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "left_diversion_sign": {
+        "label": "Left Diversion Sign",
+        "weight": 30,
+        "stackable": true
+    },
+    "picture": {
+        "label": "Picture",
+        "weight": 1,
+        "stackable": true
+    },
+    "cat_1": {
+        "label": "Black Cat",
+        "renameable": true,
+        "weight": 22,
+        "stackable": false
+    },
+    "dog_2": {
+        "label": "Poodle",
+        "renameable": true,
+        "weight": 22,
+        "stackable": false
+    },
+    "kettle_chips": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Kettle Chips (Honey-BBQ)",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "canine_tooth": {
+        "label": "Mountain Lion Tooth",
+        "weight": 6,
+        "stackable": true
+    },
+    "deck_police": {
+        "label": "Blue Line Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "weapon_addon_rc4": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Remington R4-C",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "speckled_rockfish": {
+        "label": "Speckled Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "studio_light": {
+        "label": "Studio Light",
+        "weight": 6,
+        "stackable": true
+    },
+    "weapon_addon_p320b": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "P320",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "paper": {
+        "label": "Photo Paper (1x1)",
+        "weight": 1,
+        "stackable": true
+    },
+    "rosy_rockfish": {
+        "label": "Rosy Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "cheesecake": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cheesecake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pet_flamingo": {
+        "label": "Fancy Floof",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "kelp_rockfish": {
+        "label": "Kelp Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "lean": {
+        "weight": 2,
+        "drinkable": true,
+        "drug": true,
+        "stackable": true,
+        "label": "Lean",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "drill": {
+        "label": "Drill",
+        "weight": 5,
+        "stackable": true
+    },
+    "pizza_vegetarian": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Vegetarian Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "electric_fuse": {
+        "label": "Electric Fuse",
+        "weight": 1,
+        "stackable": true
+    },
+    "tungsten_bar": {
+        "label": "Tungsten Bar",
+        "weight": 6,
+        "stackable": true
+    },
+    "bell_pepper_sliced": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Sliced Bell Pepper",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "kelp_greenling_male": {
+        "label": "Kelp Greenling (male)",
+        "weight": 0,
+        "stackable": false
+    },
+    "avocado": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Avocado",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "boxing_gloves": {
+        "label": "Boxing Gloves",
+        "weight": 5,
+        "stackable": true
+    },
+    "weapon_marksmanrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Marksman Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "ems_dummy_2": {
+        "label": "Headshot Harry",
+        "weight": 4,
+        "stackable": true
+    },
+    "cupcake": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cupcake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "vehicle_tracker": {
+        "label": "Vehicle Tracker",
+        "weight": 5,
+        "stackable": false
+    },
+    "parasol_table": {
+        "label": "Parasol Table",
+        "weight": 15,
+        "stackable": true
+    },
+    "vision_goggles": {
+        "label": "Visionary Pro Goggles",
+        "weight": 8,
+        "stackable": false
+    },
+    "pet_pig": {
+        "label": "Porkchop",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "weapon_addon_stidvc": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "STI DVC 2011",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "black_and_yellow_rockfish": {
+        "label": "Black and Yellow Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "rifle_lower_receiver_mk2": {
+        "label": "Rifle Lower Receiver MK2",
+        "stackable": true,
+        "weight": 8,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "screws": {
+        "label": "Screws",
+        "weight": 2,
+        "stackable": true
+    },
+    "salami": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Salami",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "deacon_rockfish": {
+        "label": "Deacon Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "gift_box_bomb": {
+        "label": "Gift Box",
+        "weight": 10,
+        "stackable": false
+    },
+    "weapon_revolver_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Heavy Revolver Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "snus_pack": {
+        "label": "Snus Can",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "meth_bag": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Meth Bag",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "plush_pink": {
+        "label": "Sir Fancy Pants",
+        "weight": 5,
+        "stackable": false
+    },
+    "weapon_addon_garand": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "M1 Garand",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "narcan": {
+        "label": "Narcan",
+        "stackable": true,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "tequila": {
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "label": "Tequila",
+        "grillMultiplier": 8,
+        "stackable": true
+    },
+    "map": {
+        "label": "Map",
+        "weight": 1,
+        "stackable": false
+    },
+    "scratch_remover": {
+        "label": "Scratch Remover",
+        "weight": 6,
+        "stackable": true
+    },
+    "hydrogen_peroxide": {
+        "label": "Hydrogen Peroxide",
+        "weight": 2,
+        "stackable": true
+    },
+    "skin_skull": {
+        "label": "Skull Skin",
+        "weight": 5,
+        "stackable": true
+    },
+    "sheet_metal": {
+        "label": "Sheet Metal",
+        "weight": 5,
+        "stackable": true
+    },
+    "jack_o_lantern": {
+        "label": "Jack O' Lantern",
+        "weight": 4,
+        "stackable": true
+    },
+    "baking_soda": {
+        "label": "Baking Soda",
+        "weight": 2,
+        "stackable": true
+    },
+    "barrier": {
+        "label": "Barrier",
+        "weight": 4,
+        "stackable": true
+    },
+    "pizza_dough": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Pizza Dough",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "plush_red": {
+        "label": "Shades the Superstar",
+        "weight": 5,
+        "stackable": false
+    },
+    "beef_sausages": {
+        "grillable": "grilled_sausages",
+        "weight": 4,
+        "label": "Beef Sausages",
+        "stackable": true,
+        "grillMultiplier": 3,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_multitool": {
+        "label": "Multi Tool",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "copper_rockfish_variant_1": {
+        "label": "Copper Rockfish (Variant 1)",
+        "weight": 0,
+        "stackable": false
+    },
+    "cowcod": {
+        "label": "Cowcod",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_combatpistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Combat Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "bus_map": {
+        "label": "Bus Map",
+        "weight": 1,
+        "stackable": true
+    },
+    "antenna": {
+        "label": "Antenna",
+        "weight": 1,
+        "stackable": true
+    },
+    "jolly_rancher_apple": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Apple Jolly Rancher",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_pistol_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Pistol Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "milk": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Milk",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lollipop_grape": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Grape Lollipop",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "plush_blue": {
+        "label": "Sparky McBowtie",
+        "weight": 5,
+        "stackable": false
+    },
+    "state_badge": {
+        "label": "State ID",
+        "weight": 0,
+        "stackable": false
+    },
+    "iron_ore": {
+        "label": "Iron Ore",
+        "weight": 5,
+        "stackable": true
+    },
+    "golf_ball_pink": {
+        "label": "Pink Golf Ball",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_combatmg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Combat MG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "folder": {
+        "weight": 10,
+        "label": "Folder",
+        "container": true,
+        "renameable": true,
+        "stackable": false
+    },
+    "oxygen_tank": {
+        "label": "Oxygen Tank",
+        "weight": 25,
+        "stackable": true
+    },
+    "pigeon_milk": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Pigeon Milk",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "berry_cake_slice": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Berry Cake Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lollipop_strawberry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Strawberry Lollipop",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "color_measurer": {
+        "label": "Color Measurer",
+        "weight": 4,
+        "stackable": false
+    },
+    "citizen_card": {
+        "label": "Citizen Card",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_tennisball": {
+        "label": "Tennis Ball",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "wheel": {
+        "label": "Spare Wheel",
+        "weight": 10,
+        "stackable": true
+    },
+    "darkblotched_rockfish": {
+        "label": "Darkblotched Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "pickles": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Pickles",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "jameson_whiskey": {
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "label": "Jameson",
+        "grillMultiplier": 8,
+        "stackable": true
+    },
+    "deck_peace": {
+        "label": "Psychedelic Serenity Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "pizza_ham_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Ham Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "tint_meter": {
+        "label": "Tint Meter",
+        "weight": 4,
+        "stackable": false
+    },
+    "pizza_this_delivery": {
+        "label": "Pizza This Box",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "weapon_assaultshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Assault Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "clover_mk2": {
+        "label": "4 Leaf Clover MK2",
+        "weight": 3,
+        "stackable": true
+    },
+    "nv_goggles": {
+        "label": "Night Vision Goggles",
+        "weight": 15,
+        "stackable": false
+    },
+    "old_rug": {
+        "label": "Old Rug",
+        "weight": 8,
+        "stackable": true
+    },
+    "grubs": {
+        "label": "Grubs",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_heavysniper": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Heavy Sniper",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "bleach": {
+        "label": "Bleach",
+        "weight": 3,
+        "stackable": true
+    },
+    "plush_wasabi": {
+        "label": "Wasabi Whiz",
+        "weight": 5,
+        "stackable": false
+    },
+    "lollipop_coke": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Coke Lollipop",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pepper_spray": {
+        "label": "Pepper Spray",
+        "weight": 3,
+        "stackable": true
+    },
+    "weapon_addon_hk433": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "H&K 433",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "decryption_key_green": {
+        "label": "Green Decryption Key",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 1728000,
+        "brokenLabel": false
+        }
+    },
+    "yellowtail_rockfish": {
+        "label": "Yellowtail Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "pickle": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Pickle",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "keycard_green": {
+        "label": "Green Keycard",
+        "weight": 1,
+        "stackable": true
+    },
+    "lemon": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Lemon",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cat_treats": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cat Treats",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "reinforced_steel_tube": {
+        "label": "Reinforced Steel Tube",
+        "weight": 6,
+        "stackable": true
+    },
+    "refined_steel": {
+        "label": "Refined Steel",
+        "weight": 5,
+        "stackable": true
+    },
+    "gauze": {
+        "label": "Gauze",
+        "weight": 1,
+        "stackable": true
+    },
+    "skate_helmet": {
+        "label": "Skate Helmet",
+        "weight": 6,
+        "stackable": false
+    },
+    "extended_clip": {
+        "label": "Extended Clip",
+        "weight": 3,
+        "stackable": true
+    },
+    "peanuts": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Salted Peanuts",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pigeon_0": {
+        "label": "Pigeon",
+        "renameable": true,
+        "weight": 14,
+        "stackable": false
+    },
+    "weapon_sawnoffshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 15,
+        "label": "Sawed-Off Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "scratch_ticket_vu": {
+        "label": "Scratch-Off (Vanilla Unicorn)",
+        "weight": 1,
+        "stackable": true
+    },
+    "swat_badge": {
+        "label": "SWAT Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "scratch_ticket_minecraft": {
+        "label": "Scratch-Off (Minecraft)",
+        "weight": 1,
+        "stackable": true
+    },
+    "seashell": {
+        "label": "Seashell",
+        "weight": 3,
+        "stackable": true
+    },
+    "canvas_tent": {
+        "label": "Canvas Tent",
+        "weight": 25,
+        "stackable": true
+    },
+    "weapon_revolver": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Heavy Revolver",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "gumball": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Gumball",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "dog_1": {
+        "label": "Pug",
+        "renameable": true,
+        "weight": 22,
+        "stackable": false
+    },
+    "pilk": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Pilk",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_bullpupshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Bullpup Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "miso_soup": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Miso Soup",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "rusty_tank_shell": {
+        "label": "Rusty Tank Shell",
+        "weight": 10,
+        "stackable": true
+    },
+    "grip": {
+        "label": "Grip",
+        "weight": 1,
+        "stackable": true
+    },
+    "sniper_ammo": {
+        "label": "Sniper Ammo",
+        "weight": 1,
+        "stackable": true
+    },
+    "picture_wide": {
+        "label": "Picture",
+        "weight": 1,
+        "stackable": true
+    },
+    "raw_fries": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Raw Fries",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pancake_mix": {
+        "stackable": true,
+        "food": true,
+        "weight": 5,
+        "label": "Pancake Mix",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "sahp_badge": {
+        "label": "SAHP Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "rusty_diving_helmet": {
+        "label": "Rusty Diving Helmet",
+        "weight": 12,
+        "stackable": true
+    },
+    "power_saw": {
+        "label": "Sawzall",
+        "weight": 10,
+        "stackable": false
+    },
+    "fishing_chair": {
+        "label": "Fishing Chair",
+        "weight": 4,
+        "stackable": true
+    },
+    "veggie_burger": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Veggie Burger",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "raspberry": {
+        "label": "Raspberry",
+        "weight": 5,
+        "stackable": true
+    },
+    "chocolate_ice_cream": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Chocolate Ice Cream",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "orange_juice": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Orange Juice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "catalytic_converter": {
+        "label": "Catalytic Converter",
+        "weight": 6,
+        "stackable": true
+    },
+    "car_brakes": {
+        "label": "Brakes",
+        "weight": 5,
+        "stackable": true
+    },
+    "starry_flounder": {
+        "label": "Starry Flounder",
+        "weight": 0,
+        "stackable": false
+    },
+    "right_diversion_sign": {
+        "label": "Right Diversion Sign",
+        "weight": 30,
+        "stackable": true
+    },
+    "aluminium_powder": {
+        "label": "Aluminium Powder",
+        "weight": 2,
+        "stackable": true
+    },
+    "hot_dog": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Hot Dog",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "steel_filings": {
+        "label": "Steel Filings",
+        "weight": 2,
+        "stackable": true
+    },
+    "valve": {
+        "label": "Valve",
+        "weight": 3,
+        "stackable": true
+    },
+    "weapon_marksmanpistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Marksman Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "knob": {
+        "label": "Knob",
+        "weight": 1,
+        "stackable": true
+    },
+    "pizza_slice_hawaiian": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Hawaiian Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "skin_leopard": {
+        "label": "Leopard Skin",
+        "weight": 5,
+        "stackable": true
+    },
+    "evidence_marker_2": {
+        "label": "Marker 2",
+        "weight": 1,
+        "stackable": true
+    },
+    "rice": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Cooked Rice",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "scrap_metal": {
+        "label": "Scrap Metal",
+        "weight": 5,
+        "stackable": true
+    },
+    "halfbanded_rockfish": {
+        "label": "Halfbanded Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_assaultrifle_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Assault Rifle Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "blender": {
+        "label": "Blender",
+        "weight": 10,
+        "stackable": false
+    },
+    "ammonia": {
+        "label": "Ammonia",
+        "weight": 4,
+        "stackable": true
+    },
+    "photo_camera": {
+        "label": "Photo Camera",
+        "weight": 10,
+        "stackable": true
+    },
+    "evidence_bag_empty": {
+        "label": "Empty Evidence Bag",
+        "weight": 0,
+        "stackable": true
+    },
+    "weapon_addon_gardonepistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Gardone Pistol",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "device_scanner": {
+        "label": "Device Scanner",
+        "weight": 5,
+        "stackable": true
+    },
+    "cat_0": {
+        "label": "Tabby Cat",
+        "renameable": true,
+        "weight": 22,
+        "stackable": false
+    },
+    "hostage_1": {
+        "label": "Hostage 1",
+        "weight": 4,
+        "stackable": true
+    },
+    "phone": {
+        "label": "Phone",
+        "weight": 8,
+        "stackable": false
+    },
+    "banana": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Banana",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "advanced_repair_kit": {
+        "label": "Advanced Repair Kit",
+        "weight": 14,
+        "stackable": true
+    },
+    "rat_0": {
+        "label": "Rat",
+        "renameable": true,
+        "weight": 12,
+        "stackable": false
+    },
+    "cider": {
+        "stackable": true,
+        "drinkable": true,
+        "food": true,
+        "label": "Cider",
+        "weight": 2
+    },
+    "pet_porg": {
+        "label": "Porg Pal",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "self_driving_chip": {
+        "label": "Self-Driving Chip",
+        "weight": 10,
+        "stackable": true
+    },
+    "clover": {
+        "label": "4 Leaf Clover",
+        "weight": 3,
+        "stackable": true
+    },
+    "antibiotics": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Amoxicillin",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "cigarette_carton": {
+        "label": "Cigarette Carton",
+        "stackable": true,
+        "weight": 12,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "pizza_slice_pepperoni": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Pepperoni Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "fingerprint_evidence": {
+        "label": "Fingerprint Evidence",
+        "weight": 0,
+        "stackable": false
+    },
+    "pistol_ammo": {
+        "label": "Pistol Ammo",
+        "weight": 1,
+        "stackable": true
+    },
+    "china_rockfish": {
+        "label": "China Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "savings_bond_200": {
+        "label": "$200 Savings Bond",
+        "weight": 2,
+        "stackable": true
+    },
+    "weapon_pistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "tent": {
+        "label": "Tent",
+        "weight": 12,
+        "stackable": true
+    },
+    "weapon_bottle": {
+        "label": "Broken Bottle",
+        "stackable": false,
+        "weight": 8,
+        "isWeapon": true
+    },
+    "potassium_nitrate": {
+        "label": "Potassium Nitrate",
+        "weight": 2,
+        "stackable": true
+    },
+    "potato": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Potato",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "knoppers": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Knoppers",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pacific_ocean_perch": {
+        "label": "Pacific Ocean Perch",
+        "weight": 0,
+        "stackable": false
+    },
+    "iron_oxide": {
+        "label": "Iron Oxide Powder",
+        "weight": 2,
+        "stackable": true
+    },
+    "nitro_tank": {
+        "label": "Nitro Tank",
+        "stackable": false,
+        "weight": 10,
+        "degradeAfter": {
+        "time": 2419200,
+        "brokenLabel": false
+        }
+    },
+    "skin_patriotic": {
+        "label": "Patriotic Skin",
+        "weight": 5,
+        "stackable": true
+    },
+    "ems_badge": {
+        "label": "EMS ID",
+        "weight": 0,
+        "stackable": false
+    },
+    "mochi_mango": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Mango Mochi",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lucky_penny": {
+        "label": "Lucky Penny",
+        "weight": 3,
+        "stackable": true
+    },
+    "purified_aluminium": {
+        "label": "Purified Aluminium",
+        "weight": 5,
+        "stackable": true
+    },
+    "cabbage": {
+        "label": "Cabbage",
+        "stackable": true,
+        "weight": 3,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pizza_hawaiian": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Hawaiian Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "doj_badge": {
+        "label": "DOJ Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "moonshine": {
+        "label": "Moonshine",
+        "grillable": {
+        "explosion": true
+        },
+        "weight": 2,
+        "drinkable": true,
+        "stackable": true,
+        "drug": true,
+        "grillMultiplier": 12,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "hubba_bubba": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Hubba Bubba",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "sulfur": {
+        "label": "Sulfur",
+        "weight": 1,
+        "stackable": true
+    },
+    "dunkaroos": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Dunkaroos",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "tourniquet": {
+        "label": "Tourniquet",
+        "weight": 2,
+        "stackable": true
+    },
+    "pet_snowman": {
+        "label": "\"Frosty\" The Snowman",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "california_scorpionfish": {
+        "label": "California Scorpionfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "plush_orange": {
+        "label": "Tang the Explorer",
+        "weight": 5,
+        "stackable": false
+    },
+    "hotwheels_mcqueen": {
+        "label": "Lightning McQueen",
+        "weight": 5,
+        "stackable": false
+    },
+    "sleeping_bag": {
+        "label": "Sleeping Bag",
+        "weight": 4,
+        "stackable": true
+    },
+    "hamburger": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Hamburger",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_railgunxm3": {
+        "label": "Coil Railgun",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "skin_geometric": {
+        "label": "Geometric Skin",
+        "weight": 5,
+        "stackable": true
+    },
+    "smg_upper_receiver_mk2": {
+        "label": "SMG Upper Receiver MK2",
+        "stackable": true,
+        "weight": 6,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "weather_spell_snow": {
+        "label": "Weather Spell (Snow)",
+        "weight": 1,
+        "stackable": true
+    },
+    "stop_sticks": {
+        "label": "Stop Sticks",
+        "weight": 4,
+        "stackable": true
+    },
+    "gunpowder": {
+        "label": "Gunpowder",
+        "weight": 1,
+        "stackable": true
+    },
+    "suppressor": {
+        "label": "Suppressor",
+        "weight": 2,
+        "stackable": true
+    },
+    "silver_watches": {
+        "label": "Silver Watches",
+        "weight": 2,
+        "stackable": true
+    },
+    "oreos": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Birthday-Cake Oreos",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "scratch_ticket_ching": {
+        "label": "Scratch-Off (Cha Ching)",
+        "weight": 1,
+        "stackable": true
+    },
+    "irish_coffee": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Irish Coffee",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_ar15": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "AR-15",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "deck_ems": {
+        "label": "Red Line Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "weapon_appistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "AP Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "rabbit_0": {
+        "label": "Dark Brown Rabbit",
+        "renameable": true,
+        "weight": 20,
+        "stackable": false
+    },
+    "umbrella": {
+        "label": "Umbrella",
+        "weight": 5,
+        "stackable": true
+    },
+    "rifle_upper_receiver": {
+        "label": "Rifle Upper Receiver",
+        "stackable": true,
+        "weight": 7,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "vanilla_ice_cream": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Vanilla Ice Cream",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "jolly_rancher_grape": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Grape Jolly Rancher",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "diamonds": {
+        "label": "Diamonds",
+        "weight": 5,
+        "stackable": true
+    },
+    "seagull_0": {
+        "label": "Seagull",
+        "renameable": true,
+        "weight": 18,
+        "stackable": false
+    },
+    "weapon_strickler": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "El Strickler",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "smart_watch": {
+        "label": "Smart Watch",
+        "weight": 3,
+        "stackable": false
+    },
+    "weapon_minismg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 12,
+        "label": "Mini SMG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "beans_toast": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Beans on Toast",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "sapphire_ring": {
+        "label": "Sapphire Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "nigiri": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Nigiri",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pickle_juice": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Pickle Juice",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cent_5": {
+        "label": "Nickel",
+        "weight": 1,
+        "stackable": true
+    },
+    "pain_killers": {
+        "stackable": true,
+        "weight": 3,
+        "drug": true,
+        "label": "Vicodin",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "chicken_nuggets_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Raw Chicken Nuggets",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cent_25": {
+        "label": "Quarter",
+        "weight": 1,
+        "stackable": true
+    },
+    "wallet": {
+        "label": "Wallet",
+        "container": true,
+        "weight": 4,
+        "stackable": false
+    },
+    "tv_stand": {
+        "label": "TV Stand",
+        "weight": 40,
+        "stackable": false
+    },
+    "savings_bond_500": {
+        "label": "$500 Savings Bond",
+        "weight": 3,
+        "stackable": true
+    },
+    "gas_mask": {
+        "label": "Gas Mask",
+        "weight": 5,
+        "stackable": true
+    },
+    "flashlight": {
+        "label": "Flashlight",
+        "weight": 2,
+        "stackable": true
+    },
+    "spicy_ramen": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Spicy Ramen",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "red_pillow": {
+        "label": "Red Pillow",
+        "weight": 2,
+        "stackable": true
+    },
+    "arm_chair": {
+        "label": "Old Arm Chair",
+        "weight": 12,
+        "stackable": true
+    },
+    "weather_spell_thunder": {
+        "label": "Weather Spell (Thunder)",
+        "weight": 1,
+        "stackable": true
+    },
+    "pager": {
+        "label": "Pager",
+        "weight": 10,
+        "stackable": false
+    },
+    "speed_bump": {
+        "label": "Speed Bump",
+        "weight": 4,
+        "stackable": true
+    },
+    "deck_arcade": {
+        "label": "Arcade Attack Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "cleaning_kit": {
+        "label": "Cleaning Kit",
+        "weight": 10,
+        "stackable": true
+    },
+    "antlers": {
+        "label": "Deer Antlers",
+        "weight": 12,
+        "stackable": true
+    },
+    "vermilion_rockfish": {
+        "label": "Vermilion Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "bread_sticks": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Bread Sticks",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "jolly_rancher_watermelon": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Watermelon Jolly Rancher",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "bolt_cutter": {
+        "label": "Bolt Cutter",
+        "weight": 15,
+        "stackable": true
+    },
+    "ticket_250": {
+        "label": "$250 Lottery Ticket",
+        "weight": 0,
+        "stackable": true
+    },
+    "pumpkin": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Pumpkin",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "scratch_ticket_beaver": {
+        "label": "Scratch-Off (Los Santos)",
+        "weight": 1,
+        "stackable": true
+    },
+    "morganite_ring": {
+        "label": "Morganite Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "printed_card": {
+        "label": "Printed Card",
+        "weight": 1,
+        "stackable": true
+    },
+    "hunting_license": {
+        "label": "Hunting License",
+        "weight": 0,
+        "stackable": false
+    },
+    "black_rockfish": {
+        "label": "Black Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "red_parachute": {
+        "label": "Red Parachute",
+        "stackable": true,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "vanilla_milkshake": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Vanilla Milkshake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cocoa_beans": {
+        "food": true,
+        "label": "Cocoa Beans",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_addon_ak74": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "AK-74",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "thermite": {
+        "label": "Thermite",
+        "stackable": true,
+        "weight": 5,
+        "degradeAfter": {
+        "time": 1728000,
+        "brokenLabel": false
+        }
+    },
+    "hiking_backpack": {
+        "label": "Hiking Backpack",
+        "stackable": false,
+        "weight": 20,
+        "backpack": true
+    },
+    "remote_monitor": {
+        "label": "Remote Monitor",
+        "weight": 10,
+        "stackable": false
+    },
+    "tiger_rockfish_pink_version": {
+        "label": "Tiger Rockfish (Pink Version)",
+        "weight": 0,
+        "stackable": false
+    },
+    "cigar_arturo": {
+        "label": "Arturo Fuente Gran Reserva",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "magnifying_glass": {
+        "label": "Magnifying Glass",
+        "weight": 10,
+        "stackable": false
+    },
+    "small_tv": {
+        "label": "Small TV",
+        "weight": 18,
+        "stackable": false
+    },
+    "sugar": {
+        "food": true,
+        "label": "Sugar",
+        "weight": 8,
+        "stackable": true
+    },
+    "jolly_rancher_raspberry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Raspberry Jolly Rancher",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "stop_sign": {
+        "label": "Stop Sign",
+        "weight": 6,
+        "stackable": true
+    },
+    "pvc_pipe": {
+        "label": "PVC Pipe",
+        "weight": 5,
+        "stackable": true
+    },
+    "torch": {
+        "label": "Torch",
+        "weight": 5,
+        "stackable": true
+    },
+    "coconut": {
+        "stackable": true,
+        "food": true,
+        "weight": 6,
+        "label": "Coconut",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_marksmanrifle_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Marksman Rifle Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "sprite": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Sprite",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "screen": {
+        "label": "Screen",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_dbshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 14,
+        "label": "Double Barrel Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_acidpackage": {
+        "label": "Acid Package",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "sd_card": {
+        "label": "SD Card",
+        "weight": 1,
+        "stackable": true
+    },
+    "burger_shot_delivery": {
+        "label": "Burger Shot Meal",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "fried_egg": {
+        "label": "Fried Egg",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "aluminium_plate": {
+        "label": "Aluminium Plate",
+        "weight": 5,
+        "stackable": true
+    },
+    "weapon_addon_tacknife": {
+        "label": "Ultimate Tactical Knife",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "uncooked_ramen": {
+        "food": true,
+        "label": "Uncooked Ramen",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_addon_m870": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Remington M870",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "raw_bacon": {
+        "grillable": "grilled_bacon",
+        "weight": 4,
+        "label": "Raw Bacon",
+        "stackable": true,
+        "grillMultiplier": 4,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "wires": {
+        "label": "Wires",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_fireextinguisher": {
+        "label": "Fire Extinguisher",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "almond_milk": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Almond Milk",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "joint": {
+        "stackable": true,
+        "weight": 1,
+        "drug": true,
+        "label": "Joint",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "bandana": {
+        "label": "Bandana",
+        "weight": 0,
+        "stackable": true
+    },
+    "brown_rockfish": {
+        "label": "Brown Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "trading_card": {
+        "label": "Trading Card",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_grenade": {
+        "label": "Grenade",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "bucket": {
+        "label": "Bucket",
+        "weight": 5,
+        "stackable": true
+    },
+    "magic_ball": {
+        "label": "Magic 8-Ball",
+        "weight": 2,
+        "stackable": false
+    },
+    "beach_chair": {
+        "label": "Beach Chair",
+        "weight": 4,
+        "stackable": true
+    },
+    "lighter": {
+        "label": "Lighter",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 3888000,
+        "brokenLabel": false
+        }
+    },
+    "flag": {
+        "label": "Flag",
+        "weight": 1,
+        "stackable": true
+    },
+    "tayto_chips": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Tayto Chips",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "boombox": {
+        "label": "Boombox",
+        "weight": 10,
+        "stackable": true
+    },
+    "breadcrumbs": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Breadcrumbs",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cabezon": {
+        "label": "Cabezon",
+        "weight": 0,
+        "stackable": false
+    },
+    "snus": {
+        "label": "Snus",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "weapon_battleaxe": {
+        "label": "Battle Axe",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "remote_camera": {
+        "label": "Remote Camera",
+        "weight": 15,
+        "stackable": false
+    },
+    "pizza_slice": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Margherita Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "opal": {
+        "label": "Opal",
+        "weight": 1,
+        "stackable": true
+    },
+    "train_pass_legendary_tier": {
+        "label": "Legendary Tier",
+        "weight": 1,
+        "stackable": true
+    },
+    "teddy_bear": {
+        "label": "Teddy Bear",
+        "weight": 4,
+        "stackable": false
+    },
+    "jail_card": {
+        "label": "Jail Card",
+        "weight": 0,
+        "stackable": true
+    },
+    "battering_ram": {
+        "label": "Battering Ram",
+        "weight": 30,
+        "stackable": false
+    },
+    "weapon_combatshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Combat Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "train_pass_appreciated_tier": {
+        "label": "Appreciated Tier",
+        "weight": 1,
+        "stackable": true
+    },
+    "leash": {
+        "label": "Leash",
+        "weight": 1,
+        "stackable": true
+    },
+    "train_pass_respected_tier": {
+        "label": "Respected Tier",
+        "weight": 1,
+        "stackable": true
+    },
+    "green_apple": {
+        "weight": 3,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Green Apple",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_autoshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 14,
+        "label": "Sweeper Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "emerald": {
+        "label": "Emerald",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_navyrevolver": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Navy Revolver",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "parasol": {
+        "label": "Parasol",
+        "weight": 5,
+        "stackable": true
+    },
+    "burger_buns": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Burger Buns",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "peeps_green": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Watermelon Peeps",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weed_1q": {
+        "stackable": true,
+        "weight": 1,
+        "drug": true,
+        "label": "Weed 1q",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "lollipop_watermelon": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Watermelon Lollipop",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pancake_batter": {
+        "grillable": "pancakes",
+        "weight": 4,
+        "label": "Pancake Batter",
+        "food": true,
+        "stackable": true,
+        "grillMultiplier": 5,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "smg_lower_receiver": {
+        "label": "SMG Lower Receiver",
+        "stackable": true,
+        "weight": 5,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "crow_0": {
+        "label": "Crow",
+        "renameable": true,
+        "weight": 14,
+        "stackable": false
+    },
+    "tungsten_ore": {
+        "label": "Tungsten Ore",
+        "weight": 5,
+        "stackable": true
+    },
+    "fake_plate": {
+        "label": "Fake Plate",
+        "weight": 6,
+        "stackable": true
+    },
+    "claymore": {
+        "label": "Claymore",
+        "weight": 3,
+        "stackable": true
+    },
+    "deck_usa": {
+        "label": "Liberty Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "sub_ammo": {
+        "label": "Sub Ammo",
+        "weight": 1,
+        "stackable": true
+    },
+    "lemon_cake_slice": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Lemon Cake Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_assaultsmg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 15,
+        "label": "Assault SMG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_addon_axmc": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "AXMC",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "tablet": {
+        "label": "Tablet",
+        "weight": 6,
+        "stackable": false
+    },
+    "scratch_ticket": {
+        "label": "Scratch-Off (Cash Extravaganza)",
+        "weight": 1,
+        "stackable": true
+    },
+    "patty": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Burger Patty",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_fertilizercan": {
+        "label": "Fertilizer Can",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "mochi_green_tea": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Green Tea Mochi",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_raypistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Up-n-Atomizer",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "pcb_board": {
+        "label": "PCB Board",
+        "weight": 1,
+        "stackable": true
+    },
+    "pizza_slice_vegetarian": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Vegetarian Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "chip_500": {
+        "label": "$500 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "management_badge": {
+        "label": "Management Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "iaa_badge": {
+        "label": "IAA Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "firework_battery": {
+        "label": "Firework Battery",
+        "weight": 4,
+        "stackable": true
+    },
+    "cent_10": {
+        "label": "Dime",
+        "weight": 1,
+        "stackable": true
+    },
+    "pizza_slice_ham": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Ham Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "tiger_rockfish_dark_version": {
+        "label": "Tiger Rockfish (Dark Version)",
+        "weight": 0,
+        "stackable": false
+    },
+    "deck_flowers": {
+        "label": "Tropical Vibes Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "green_fishing_chair": {
+        "label": "Green Fishing Chair",
+        "weight": 4,
+        "stackable": true
+    },
+    "rabbit_3": {
+        "label": "Gray Rabbit",
+        "renameable": true,
+        "weight": 20,
+        "stackable": false
+    },
+    "weapon_addon_mcx": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 15,
+        "label": "SIG MCX",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "lollipop_pack": {
+        "label": "Lollipop Pack",
+        "stackable": true,
+        "weight": 3,
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "wine": {
+        "stackable": true,
+        "drinkable": true,
+        "food": true,
+        "label": "Wine",
+        "weight": 1
+    },
+    "trigger": {
+        "label": "Trigger",
+        "stackable": true,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "bocaccio": {
+        "label": "Bocaccio",
+        "weight": 0,
+        "stackable": false
+    },
+    "ham": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Ham",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "green_hiking_backpack": {
+        "label": "Green Hiking Backpack",
+        "stackable": false,
+        "weight": 20,
+        "backpack": true
+    },
+    "bong": {
+        "label": "Bong",
+        "stackable": false,
+        "weight": 6,
+        "degradeAfter": {
+        "time": 3888000,
+        "brokenLabel": false
+        }
+    },
+    "shotgun_ammo": {
+        "label": "Shotgun Ammo",
+        "weight": 1,
+        "stackable": true
+    },
+    "leeches": {
+        "label": "Leeches",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_addon_stungun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 8,
+        "label": "Coil Stun Gun",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "lemonheads": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Lemonheads",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "drum": {
+        "label": "Drum Mag",
+        "weight": 5,
+        "stackable": true
+    },
+    "doctor_badge": {
+        "label": "Doctor ID",
+        "weight": 0,
+        "stackable": false
+    },
+    "fortune_cookie": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Fortune Cookie",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ruby_ring": {
+        "label": "Ruby Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "cooler_box": {
+        "label": "Cooler Box",
+        "weight": 20,
+        "stackable": false
+    },
+    "pedestrian_barrier": {
+        "label": "Pedestrian Barrier",
+        "weight": 4,
+        "stackable": true
+    },
+    "trading_card_pack": {
+        "label": "Trading Cards Pack",
+        "weight": 5,
+        "stackable": true
+    },
+    "weapon_snowball": {
+        "label": "Snowballs",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_pumpshotgun_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Pump Shotgun Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "black_olives": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Black Olives",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "fishing_rod": {
+        "label": "Fishing Rod",
+        "weight": 10,
+        "stackable": true
+    },
+    "black_parachute": {
+        "label": "Black Parachute",
+        "stackable": true,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_compactlauncher": {
+        "label": "Compact Grenade",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "wooden_table": {
+        "label": "Wooden Table",
+        "weight": 8,
+        "stackable": true
+    },
+    "tire_wall": {
+        "label": "Tire Wall",
+        "weight": 30,
+        "stackable": false
+    },
+    "weapon_stungun_mp": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 8,
+        "label": "Stun Gun (MP)",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "yeast_packet": {
+        "label": "Yeast Packet",
+        "weight": 1,
+        "stackable": true
+    },
+    "raw_patty": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Raw Patty",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "coke": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Coke",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "spotlight": {
+        "label": "Spotlight",
+        "weight": 4,
+        "stackable": true
+    },
+    "grass_rockfish_light_version": {
+        "label": "Grass Rockfish (Light Version)",
+        "weight": 0,
+        "stackable": false
+    },
+    "bronzespotted_rockfish": {
+        "label": "Bronzespotted Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_680": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Remington 680",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "box": {
+        "label": "Box",
+        "weight": 2,
+        "stackable": true
+    },
+    "plank": {
+        "label": "Wooden Plank",
+        "weight": 12,
+        "stackable": true
+    },
+    "salt": {
+        "label": "Salt",
+        "stackable": true,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "vape": {
+        "label": "Geek Bar",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 7776000,
+        "brokenLabel": "vape_empty"
+        }
+    },
+    "grill": {
+        "label": "Grill",
+        "weight": 15,
+        "stackable": true
+    },
+    "ladder": {
+        "label": "Ladder",
+        "weight": 30,
+        "stackable": false
+    },
+    "starry_rockfish": {
+        "label": "Starry Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "bandit_2": {
+        "label": "Bandit 2",
+        "weight": 4,
+        "stackable": true
+    },
+    "pizza_slice_salami": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Salami Pizza Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cabbage_seeds": {
+        "label": "Cabbage Seeds",
+        "weight": 1,
+        "stackable": true
+    },
+    "cloth_tent": {
+        "label": "Cloth Tent",
+        "weight": 10,
+        "stackable": true
+    },
+    "xbox_controller": {
+        "label": "XBOX Controller",
+        "weight": 1,
+        "stackable": true
+    },
+    "cucumber": {
+        "label": "Cucumber",
+        "stackable": true,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pineapple_slices": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Pineapple Slices",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pink_dildo": {
+        "label": "Pink Dildo",
+        "weight": 3,
+        "stackable": false
+    },
+    "gift_box": {
+        "label": "Gift Box",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "weapon_addon_mk18": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "MK18",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "burnt_meat": {
+        "weight": 4,
+        "food": true,
+        "label": "Burnt Meat",
+        "burnt": true,
+        "stackable": true
+    },
+    "document_paper": {
+        "label": "Document Paper (21x28)",
+        "weight": 1,
+        "stackable": true
+    },
+    "blue_fishing_chair": {
+        "label": "Blue Fishing Chair",
+        "weight": 4,
+        "stackable": true
+    },
+    "rice_krispies": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Rice Krispies",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_minigun": {
+        "label": "Minigun",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "police_barrier": {
+        "label": "Police Barrier",
+        "weight": 4,
+        "stackable": true
+    },
+    "mining_license": {
+        "label": "Mining License",
+        "weight": 0,
+        "stackable": false
+    },
+    "blue_rockfish": {
+        "label": "Blue Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "dog_treats": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Dog Treats",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weather_spell_rain": {
+        "label": "Weather Spell (Rain)",
+        "weight": 1,
+        "stackable": true
+    },
+    "blackgill_rockfish": {
+        "label": "Blackgill Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_berserker": {
+        "label": "Berserker",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "muzzle_brake": {
+        "label": "Muzzle Brake",
+        "weight": 3,
+        "stackable": true
+    },
+    "magazine": {
+        "label": "Magazine",
+        "weight": 1,
+        "stackable": false
+    },
+    "fortune_paper": {
+        "label": "Fortune Paper",
+        "weight": 1,
+        "stackable": false
+    },
+    "beer": {
+        "stackable": true,
+        "drinkable": true,
+        "food": true,
+        "label": "Beer",
+        "weight": 1
+    },
+    "kvikk_lunsj": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Kvikk Lunsj",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "extended_smg_clip": {
+        "label": "Extended Clip (SMG)",
+        "weight": 3,
+        "stackable": true
+    },
+    "pizza_margherita": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Margherita Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "taco": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Taco",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "yoga_mat": {
+        "label": "Yoga Mat",
+        "weight": 2,
+        "stackable": true
+    },
+    "fishing_license": {
+        "label": "Fishing License",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_sentinelbbshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Beanbag Shotgun",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "plush_yellow": {
+        "label": "Sunshine Dread",
+        "weight": 5,
+        "stackable": false
+    },
+    "weapon_rpg": {
+        "label": "RPG",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "cooked_meat": {
+        "grillable": "burnt_meat",
+        "weight": 4,
+        "grilled": true,
+        "food": true,
+        "stackable": true,
+        "label": "Cooked Meat",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "door": {
+        "label": "Door",
+        "weight": 14,
+        "stackable": true
+    },
+    "weapon_microsmg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 12,
+        "label": "Micro SMG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "sasp_badge": {
+        "label": "SASP Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "gold_nugget": {
+        "label": "Gold Nugget",
+        "weight": 4,
+        "stackable": true
+    },
+    "weapon_license": {
+        "label": "Weapons License",
+        "weight": 0,
+        "stackable": false
+    },
+    "raw_morganite": {
+        "label": "Raw Morganite",
+        "weight": 3,
+        "stackable": true
+    },
+    "weapon_sniperrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 30,
+        "label": "Sniper Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "floodlight": {
+        "label": "Floodlight",
+        "weight": 10,
+        "stackable": true
+    },
+    "target": {
+        "label": "Target",
+        "weight": 4,
+        "stackable": true
+    },
+    "nori": {
+        "food": true,
+        "label": "Nori",
+        "weight": 1,
+        "stackable": true
+    },
+    "evidence_marker_1": {
+        "label": "Marker 1",
+        "weight": 1,
+        "stackable": true
+    },
+    "grenade_shell": {
+        "label": "Grenade Shell",
+        "weight": 3,
+        "stackable": true
+    },
+    "strawberry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Strawberry",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ticket_50": {
+        "label": "$50 Lottery Ticket",
+        "weight": 0,
+        "stackable": true
+    },
+    "oxy_prescription": {
+        "label": "Oxy Prescription",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "battery_pack": {
+        "label": "Battery Pack",
+        "weight": 1,
+        "stackable": true
+    },
+    "evidence_marker_4": {
+        "label": "Marker 4",
+        "weight": 1,
+        "stackable": true
+    },
+    "dusky_rockfish_dark_version": {
+        "label": "Dusky Rockfish (Dark Version)",
+        "weight": 0,
+        "stackable": false
+    },
+    "ems_dummy_1": {
+        "label": "Limp Larry",
+        "weight": 4,
+        "stackable": true
+    },
+    "small_barrier": {
+        "label": "Small Barrier",
+        "weight": 2,
+        "stackable": true
+    },
+    "cone": {
+        "label": "Cone",
+        "weight": 2,
+        "stackable": true
+    },
+    "spike_strips": {
+        "label": "Spike Strips",
+        "weight": 4,
+        "stackable": true
+    },
+    "spike_strips_large": {
+        "label": "Large Spike Strips",
+        "weight": 6,
+        "stackable": true
+    },
+    "bar_license": {
+        "label": "Bar/Law License",
+        "weight": 0,
+        "stackable": false
+    },
+    "traffic_barrier": {
+        "label": "Traffic Barrier",
+        "weight": 6,
+        "stackable": true
+    },
+    "plush_green": {
+        "label": "Mossy McHairface",
+        "weight": 5,
+        "stackable": false
+    },
+    "car_radiator": {
+        "label": "Radiator",
+        "weight": 4,
+        "stackable": true
+    },
+    "weapon_gusenberg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Gusenberg Sweeper",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "smores": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "S'mores",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lettuce": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Lettuce",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "apple": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Apple",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ancient_coin": {
+        "label": "Ancient Coin",
+        "weight": 4,
+        "stackable": true
+    },
+    "burrito": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Burrito",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "drill_large": {
+        "label": "Large Drill",
+        "stackable": true,
+        "weight": 50,
+        "degradeAfter": {
+        "time": 2419200,
+        "brokenLabel": false
+        }
+    },
+    "traffic_barrel": {
+        "label": "Traffic Barrel",
+        "weight": 4,
+        "stackable": true
+    },
+    "bumps_sign": {
+        "label": "Bumps Sign",
+        "weight": 4,
+        "stackable": true
+    },
+    "scratch_ticket_carnival": {
+        "label": "Scratch-Off (Carnival)",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_tacticalrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Service Carbine",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_addon_sentinelshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Sentinel Shotgun",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "glass": {
+        "label": "Rough Glass",
+        "weight": 3,
+        "stackable": true
+    },
+    "sight": {
+        "label": "Holographic Sight",
+        "weight": 1,
+        "stackable": true
+    },
+    "liquid_smoke": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Liquid Smoke",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "dark_chocolate": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Dark Chocolate",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pizza_salami_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Salami Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "boat_license": {
+        "label": "Boating License",
+        "weight": 0,
+        "stackable": false
+    },
+    "canary_rockfish_variant_1": {
+        "label": "Canary Rockfish (Variant 1)",
+        "weight": 0,
+        "stackable": false
+    },
+    "evidence_bag": {
+        "label": "Evidence Bag",
+        "weight": 0,
+        "stackable": false
+    },
+    "spring": {
+        "label": "Spring",
+        "weight": 3,
+        "stackable": true
+    },
+    "gold_watches": {
+        "label": "Gold Watches",
+        "weight": 2,
+        "stackable": true
+    },
+    "weapon_addon_hk416": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "H&K 416",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "iced_latte": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Iced Latte",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lithium_batteries": {
+        "label": "Lithium Batteries",
+        "weight": 8,
+        "stackable": true
+    },
+    "rusty_gear": {
+        "label": "Rusty Gear",
+        "weight": 8,
+        "stackable": true
+    },
+    "brochure": {
+        "label": "Brochure",
+        "weight": 1,
+        "stackable": true
+    },
+    "kissaki_delivery": {
+        "label": "Kissaki Meal",
+        "container": true,
+        "weight": 10,
+        "stackable": false
+    },
+    "cheetos": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Cheetos",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "greenspotted_rockfish": {
+        "label": "Greenspotted Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_railgun": {
+        "label": "Railgun",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "cheeseburger": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Cheeseburger",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pet_pingu": {
+        "label": "Pingu",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "evidence_marker_5": {
+        "label": "Marker 5",
+        "weight": 1,
+        "stackable": true
+    },
+    "gps": {
+        "label": "GPS",
+        "weight": 4,
+        "stackable": false
+    },
+    "wheel_clamp": {
+        "label": "Wheel Clamp",
+        "weight": 16,
+        "stackable": true
+    },
+    "shotgun_upper_receiver": {
+        "label": "Shotgun Upper Receiver",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "window": {
+        "label": "Window",
+        "weight": 2,
+        "stackable": true
+    },
+    "glass_pipe": {
+        "label": "Glass Pipe",
+        "stackable": false,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 3888000,
+        "brokenLabel": false
+        }
+    },
+    "bbq_sandwich": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "BBQ Sandwich",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_glock18c": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Glock 18C",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "winner_trophy": {
+        "label": "Winner Trophy",
+        "weight": 5,
+        "stackable": false
+    },
+    "zombie_pill": {
+        "label": "Zombie Pill",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "rifle_lower_receiver": {
+        "label": "Rifle Lower Receiver",
+        "stackable": true,
+        "weight": 7,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "pizza_salami": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Salami Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "driver_license": {
+        "label": "Driver's License",
+        "weight": 0,
+        "stackable": false
+    },
+    "chocolate_cake_slice": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Chocolate Cake Slice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pineapple": {
+        "stackable": true,
+        "food": true,
+        "weight": 5,
+        "label": "Pineapple",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lollipop_raspberry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Raspberry Lollipop",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "titanium_rod": {
+        "label": "Titanium Rod",
+        "weight": 6,
+        "stackable": true
+    },
+    "empty_nitro_tank": {
+        "label": "Empty Nitro Tank",
+        "stackable": true,
+        "weight": 5,
+        "degradeAfter": {
+        "time": 2419200,
+        "brokenLabel": false
+        }
+    },
+    "cream_cookie": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cream Cookie",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_specialcarbine": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Special Carbine",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "tungsten_nugget": {
+        "label": "Tungsten Nugget",
+        "weight": 2,
+        "stackable": true
+    },
+    "copper_rockfish_variant_2": {
+        "label": "Copper Rockfish (Variant 2)",
+        "weight": 0,
+        "stackable": false
+    },
+    "orange": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Orange",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "bne_burger": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Bacon n' Egg Burger",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pizza_saver": {
+        "label": "Pizza Saver",
+        "weight": 1,
+        "stackable": true
+    },
+    "leather": {
+        "label": "Leather",
+        "stackable": true,
+        "weight": 15,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "skittles": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Skittles",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "plastic_chair": {
+        "label": "Plastic Chair",
+        "weight": 4,
+        "stackable": true
+    },
+    "grilled_sausages": {
+        "label": "Grilled Sausages",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "raw_onyx": {
+        "label": "Raw Onyx",
+        "weight": 3,
+        "stackable": true
+    },
+    "scope": {
+        "label": "Scope",
+        "weight": 2,
+        "stackable": true
+    },
+    "weapon_addon_glock": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Glock 19",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "radio_jammer": {
+        "label": "Radio Jammer",
+        "weight": 10,
+        "stackable": false
+    },
+    "hardened_steel_plate": {
+        "label": "Hardened Steel Plate",
+        "weight": 6,
+        "stackable": true
+    },
+    "crack": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Crack",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "cigar_homemade": {
+        "label": "Cigar (Hand-rolled)",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "golf_ball_yellow": {
+        "label": "Yellow Golf Ball",
+        "weight": 1,
+        "stackable": true
+    },
+    "fentanyl": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Fentanyl",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "cocoa_powder": {
+        "food": true,
+        "label": "Cocoa Powder",
+        "weight": 2,
+        "stackable": true
+    },
+    "raw_brined_meat": {
+        "grillable": "beef_jerky",
+        "weight": 4,
+        "food": true,
+        "stackable": true,
+        "label": "Raw Brined Meat",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "beans": {
+        "stackable": true,
+        "food": true,
+        "weight": 6,
+        "label": "Beans",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "empty_tank": {
+        "label": "Empty Tank",
+        "weight": 10,
+        "stackable": true
+    },
+    "basic_lockpick": {
+        "label": "Basic Lockpick",
+        "weight": 5,
+        "stackable": true
+    },
+    "weapon_combatmg_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Combat MG Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_addon_m9a3": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Beretta M9A3",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "acid": {
+        "stackable": true,
+        "weight": 1,
+        "drug": true,
+        "label": "Acid (LSD)",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "bbq_sauce": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "BBQ Sauce",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "beef_jerky": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Beef Jerky",
+        "degradeAfter": {
+        "time": 864000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lens": {
+        "label": "Lens",
+        "weight": 3,
+        "stackable": true
+    },
+    "grilled_bacon": {
+        "label": "Grilled Bacon",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_hominglauncher": {
+        "label": "Homing Launcher",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "nachos": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Nachos",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "bus_ticket": {
+        "label": "Bus Ticket",
+        "weight": 1,
+        "stackable": true
+    },
+    "train_pass_heroic_tier": {
+        "label": "Heroic Tier",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_rayminigun": {
+        "label": "Widowmaker",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "empty_box": {
+        "label": "Empty Box",
+        "weight": 2,
+        "stackable": true
+    },
+    "ifak": {
+        "label": "IFAK",
+        "stackable": true,
+        "weight": 4,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "ems_dummy_4": {
+        "label": "Chest-Wound Charlie",
+        "weight": 4,
+        "stackable": true
+    },
+    "firework_rocket": {
+        "label": "Firework Rocket",
+        "weight": 4,
+        "stackable": true
+    },
+    "pearl": {
+        "label": "Pearl",
+        "weight": 3,
+        "stackable": true
+    },
+    "pancakes": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Pancakes",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_1911": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "1911 Kimber Tactical",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "eggs": {
+        "grillable": "fried_egg",
+        "weight": 2,
+        "label": "Eggs",
+        "food": true,
+        "stackable": true,
+        "grillMultiplier": 4,
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "rifle_upper_receiver_mk2": {
+        "label": "Rifle Upper Receiver MK2",
+        "stackable": true,
+        "weight": 8,
+        "degradeAfter": {
+        "time": 3110400,
+        "brokenLabel": false
+        }
+    },
+    "gasoline_bottle": {
+        "stackable": true,
+        "drinkable": true,
+        "weight": 4,
+        "label": "Gasoline Bottle",
+        "grillFuel": true
+    },
+    "nerds_chunks": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Nerds Chunks",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "first_aid_kit": {
+        "label": "First Aid Kit",
+        "weight": 4,
+        "stackable": true
+    },
+    "espresso": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Espresso",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "dusky_rockfish_light_version": {
+        "label": "Dusky Rockfish (Light Version)",
+        "weight": 0,
+        "stackable": false
+    },
+    "kimchi": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Kimchi",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "onyx_ring": {
+        "label": "Onyx Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "gushers": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Gushers",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "plush_white": {
+        "label": "Captain Whiskerface",
+        "weight": 5,
+        "stackable": false
+    },
+    "widow_rockfish": {
+        "label": "Widow Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "ticket_500": {
+        "label": "$500 Lottery Ticket",
+        "weight": 0,
+        "stackable": true
+    },
+    "olive_oil": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Olive Oil",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_ball": {
+        "label": "Baseball",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "director_chair": {
+        "label": "Director Chair",
+        "weight": 4,
+        "stackable": true
+    },
+    "apple_juice": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Apple Juice",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "sweetarts": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Sweetarts",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "small_frog": {
+        "label": "Small Frog",
+        "weight": 3,
+        "stackable": true
+    },
+    "uncooked_rice": {
+        "food": true,
+        "label": "Uncooked Rice",
+        "weight": 1,
+        "stackable": true
+    },
+    "cherry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cherry",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "fibreglass_resin": {
+        "label": "Fibreglass Resin",
+        "weight": 3,
+        "stackable": true
+    },
+    "weapon_addon_m6ic": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "LWRC M6IC",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "cpu": {
+        "label": "CPU",
+        "weight": 1,
+        "stackable": true
+    },
+    "ems_dummy_3": {
+        "label": "Battered Ben",
+        "weight": 4,
+        "stackable": true
+    },
+    "tube_light": {
+        "label": "Tube Light",
+        "weight": 2,
+        "stackable": true
+    },
+    "chili": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Chili Peppers",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "soy_sauce": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Soy Sauce",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lollipop_apple": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Apple Lollipop",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "spring_onions_cut": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cut Spring Onions",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "tofu": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Tofu",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "scratch_ticket_pearl": {
+        "label": "Scratch-Off (Black Pearl)",
+        "weight": 1,
+        "stackable": true
+    },
+    "quesadilla": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Queasadilla",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "mochi_strawberry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Strawberry Mochi",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_flaregun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Flare Gun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "steel_file": {
+        "label": "Steel File",
+        "weight": 10,
+        "stackable": true
+    },
+    "microphone_stand": {
+        "label": "Microphone Stand",
+        "weight": 12,
+        "stackable": false
+    },
+    "quillback_rockfish_variant_2": {
+        "label": "Quillback Rockfish (Variant 2)",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_6kh4": {
+        "label": "6KH4",
+        "stackable": false,
+        "weight": 8,
+        "isWeapon": true
+    },
+    "canary_rockfish_variant_2": {
+        "label": "Canary Rockfish (Variant 2)",
+        "weight": 0,
+        "stackable": false
+    },
+    "lemon_cake": {
+        "stackable": true,
+        "food": true,
+        "weight": 6,
+        "label": "Lemon Cake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "brass": {
+        "label": "Brass",
+        "weight": 2,
+        "stackable": true
+    },
+    "green_rolls": {
+        "label": "Green Rolls",
+        "weight": 5,
+        "stackable": true
+    },
+    "ear_defenders": {
+        "label": "Ear Defenders",
+        "weight": 5,
+        "stackable": false
+    },
+    "weapon_addon_dutypistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "SIG Sauer P226",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "chilipepper_rockfish": {
+        "label": "Chilipepper Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_addon_fn509": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "FN-509",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "lime": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Lime",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_jericho": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Jericho 941",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "watermelon": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Watermelon",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "lingcod": {
+        "label": "Lingcod",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_stickybomb": {
+        "label": "Sticky Bomb",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "peeps_blue": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Blue Peeps",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "keys": {
+        "label": "Keys",
+        "weight": 10,
+        "stackable": false
+    },
+    "greenblotched_rockfish": {
+        "label": "Greenblotched Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "fertilizer": {
+        "label": "Fertilizer",
+        "weight": 10,
+        "stackable": true
+    },
+    "weapon_ceramicpistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Ceramic Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_snowlauncher": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Snowball Launcher",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "bong_water": {
+        "label": "Bong Water",
+        "weight": 2,
+        "stackable": true
+    },
+    "oxy": {
+        "stackable": true,
+        "weight": 3,
+        "drug": true,
+        "label": "Oxycodone",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "squarespot_rockfish": {
+        "label": "Squarespot Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "pickaxe": {
+        "label": "Pickaxe",
+        "weight": 10,
+        "stackable": false
+    },
+    "pearl_ring": {
+        "label": "Pearl Ring",
+        "weight": 2,
+        "stackable": false
+    },
+    "mochi_chocolate": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Chocolate Mochi",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ev_battery": {
+        "label": "EV Battery",
+        "weight": 10,
+        "stackable": false
+    },
+    "pizza_margherita_raw": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Raw Margherita Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "meth_table": {
+        "label": "Meth Table",
+        "weight": 20,
+        "stackable": true
+    },
+    "pink_lemonade": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Pink Lemonade",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "large_target": {
+        "label": "Large Target",
+        "weight": 8,
+        "stackable": true
+    },
+    "cigar_romeo": {
+        "label": "Romeo y Julieta 1875",
+        "stackable": true,
+        "weight": 1,
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "campfire": {
+        "label": "Campfire",
+        "weight": 15,
+        "stackable": true
+    },
+    "weapon_stunrod": {
+        "label": "The Shocker",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "chip_5000": {
+        "label": "$5000 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "caterpillar": {
+        "label": "Caterpillar",
+        "weight": 3,
+        "stackable": true
+    },
+    "bean_coffee": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Bean Coffee",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_machinepistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 12,
+        "label": "Machine Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "mine": {
+        "label": "Mine",
+        "weight": 4,
+        "stackable": true
+    },
+    "weapon_flare": {
+        "label": "Flare",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_firework": {
+        "label": "Firework Launcher",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "cat_2": {
+        "label": "Brown Cat",
+        "renameable": true,
+        "weight": 22,
+        "stackable": false
+    },
+    "extended_shotgun_clip": {
+        "label": "Extended Clip (Shotgun)",
+        "weight": 3,
+        "stackable": true
+    },
+    "bank_rockfish": {
+        "label": "Bank Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "weapon_emplauncher": {
+        "label": "Compact EMP Launcher",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "chip_10000": {
+        "label": "$10000 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "tempered_glass": {
+        "label": "Tempered Glass",
+        "weight": 3,
+        "stackable": true
+    },
+    "paint_brush": {
+        "label": "Paint Brush",
+        "weight": 3,
+        "stackable": true
+    },
+    "fib_badge": {
+        "label": "FIB Badge",
+        "weight": 0,
+        "stackable": false
+    },
+    "vulcanized_rubber": {
+        "label": "Vulcanized Rubber",
+        "weight": 2,
+        "stackable": true
+    },
+    "green_tea": {
+        "weight": 2,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Green Tea",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "grenade_pin": {
+        "label": "Grenade Pin",
+        "weight": 2,
+        "stackable": true
+    },
+    "paper_straw": {
+        "label": "Paper Straw",
+        "weight": 1,
+        "stackable": true
+    },
+    "tnt_block": {
+        "label": "TNT Block",
+        "weight": 12,
+        "stackable": true
+    },
+    "weapon_addon_vandal": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "RGX Vandal",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "radio": {
+        "label": "Radio",
+        "weight": 8,
+        "stackable": true
+    },
+    "weapon_addon_honey": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Honey Badger",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "green_tea_bag": {
+        "food": true,
+        "label": "Green Tea",
+        "weight": 2,
+        "stackable": true
+    },
+    "dummy": {
+        "label": "Dummy",
+        "weight": 4,
+        "stackable": true
+    },
+    "weapon_snspistol_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "SNS Pistol Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_heavyshotgun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Heavy Shotgun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_petrolcan": {
+        "label": "Jerry Can",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_smg_mk2": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 14,
+        "label": "SMG Mk II",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_poolcue": {
+        "label": "Pool Cue",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_assaultrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Assault Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "earthworms": {
+        "label": "Earthworms",
+        "weight": 1,
+        "stackable": true
+    },
+    "shrooms": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Shrooms",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "weapon_musket": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Musket",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_stinger": {
+        "label": "RPG",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "aluminium": {
+        "label": "Crude Aluminium",
+        "weight": 5,
+        "stackable": true
+    },
+    "weapon_addon_g36c": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Heckler & Koch G36C",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "weapon_hackingdevice": {
+        "label": "Hacking Device",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_nightstick": {
+        "label": "Nightstick",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "deck_blossom": {
+        "label": "Cherry Blossom Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "peeps_pink": {
+        "stackable": true,
+        "food": true,
+        "weight": 3,
+        "label": "Pink Peeps",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cent_50": {
+        "label": "Half Dollar",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_hammer": {
+        "label": "Hammer",
+        "stackable": true,
+        "weight": 8,
+        "isWeapon": true
+    },
+    "pizza_ham": {
+        "stackable": true,
+        "food": true,
+        "weight": 4,
+        "label": "Ham Pizza",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "chip_100": {
+        "label": "$100 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "blue_parachute": {
+        "label": "Blue Parachute",
+        "stackable": true,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "weapon_addon_tp9sf": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Canik TP9SF",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "weapon_combatpdw": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 15,
+        "label": "Combat PDW",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "blue_hiking_backpack": {
+        "label": "Blue Hiking Backpack",
+        "stackable": false,
+        "weight": 20,
+        "backpack": true
+    },
+    "jolly_rancher_cherry": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cherry Jolly Rancher",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "chocolate_milkshake": {
+        "weight": 1,
+        "drinkable": true,
+        "food": true,
+        "stackable": true,
+        "label": "Chocolate Milkshake",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "small_frog_mk2": {
+        "label": "Small Frog MK2",
+        "weight": 3,
+        "stackable": true
+    },
+    "ejector_seat": {
+        "label": "Ejector Seat",
+        "weight": 30,
+        "stackable": true
+    },
+    "weapon_stungun": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 8,
+        "label": "Stun Gun",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_pistol50": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Pistol .50",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "yelloweye_rockfish_juvenile": {
+        "label": "Yelloweye Rockfish (Juvenile)",
+        "weight": 0,
+        "stackable": false
+    },
+    "gps_collar": {
+        "label": "GPS Collar",
+        "weight": 10,
+        "stackable": false
+    },
+    "coffee_beans": {
+        "food": true,
+        "label": "Coffee Beans",
+        "weight": 2,
+        "stackable": true
+    },
+    "titanium_ore": {
+        "label": "Titanium Ore",
+        "weight": 6,
+        "stackable": true
+    },
+    "golf_ball": {
+        "label": "Golf Ball",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_bullpuprifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Bullpup Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "raw_meat": {
+        "grillable": "cooked_meat",
+        "weight": 4,
+        "food": true,
+        "stackable": true,
+        "label": "Raw Meat",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "pacific_sanddab": {
+        "label": "Pacific Sanddab",
+        "weight": 0,
+        "stackable": false
+    },
+    "jolly_ranchers": {
+        "label": "Jolly Ranchers",
+        "stackable": true,
+        "weight": 3,
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "treasure_map_piece": {
+        "label": "Treasure Map Piece",
+        "weight": 1,
+        "stackable": true
+    },
+    "shortraker_rockfish": {
+        "label": "Shortraker Rockfish",
+        "weight": 0,
+        "stackable": false
+    },
+    "pet_chicken": {
+        "label": "Feathery Friend",
+        "nameable": true,
+        "weight": 15,
+        "stackable": false
+    },
+    "ramen": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Ramen",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "cheese": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Cheese",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_smg": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 15,
+        "label": "SMG",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weed_1oz": {
+        "stackable": true,
+        "weight": 4,
+        "drug": true,
+        "label": "Weed 1oz",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    },
+    "fish_filets": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Fish Filets",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_addon_svd": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "SVD Dragunov",
+        "degradeAfter": {
+        "time": 6480000,
+        "brokenLabel": false
+        }
+    },
+    "skin_zebra": {
+        "label": "Zebra Skin",
+        "weight": 5,
+        "stackable": true
+    },
+    "chicken_nuggets": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Chicken Nuggets",
+        "degradeAfter": {
+        "time": 100800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ring": {
+        "label": "Ring",
+        "weight": 2,
+        "stackable": true
+    },
+    "steel": {
+        "label": "Raw Steel",
+        "weight": 5,
+        "stackable": true
+    },
+    "jalapeno": {
+        "stackable": true,
+        "food": true,
+        "weight": 1,
+        "label": "Jalapeno",
+        "degradeAfter": {
+        "time": 172800,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "weapon_molotov": {
+        "label": "Molotov Cocktail",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "cent_1": {
+        "label": "Penny",
+        "weight": 1,
+        "stackable": true
+    },
+    "chip_1000": {
+        "label": "$1000 Chip",
+        "weight": 0,
+        "stackable": true
+    },
+    "weapon_raycarbine": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 15,
+        "label": "Unholy Hellbringer",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "tofu_cubes": {
+        "stackable": true,
+        "food": true,
+        "weight": 2,
+        "label": "Tofu Cubes",
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": "broken_food"
+        }
+    },
+    "ballistic_shield": {
+        "label": "Ballistic Shield",
+        "weight": 25,
+        "stackable": true
+    },
+    "golf_ball_orange": {
+        "label": "Orange Golf Ball",
+        "weight": 1,
+        "stackable": true
+    },
+    "weapon_carbinerifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Carbine Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_advancedrifle": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 20,
+        "label": "Advanced Rifle",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "weapon_pipebomb": {
+        "label": "Pipe Bombs",
+        "isThrowable": true,
+        "weight": 1,
+        "stackable": true
+    },
+    "aluminium_ore": {
+        "label": "Aluminium Ore",
+        "weight": 5,
+        "stackable": true
+    },
+    "microcontroller": {
+        "label": "Microcontroller",
+        "weight": 1,
+        "stackable": true
+    },
+    "evidence_marker_3": {
+        "label": "Marker 3",
+        "weight": 1,
+        "stackable": true
+    },
+    "printed_document": {
+        "label": "Printed Document",
+        "weight": 1,
+        "stackable": true
+    },
+    "tobacco_leaf": {
+        "label": "Tobacco Leaf",
+        "stackable": true,
+        "weight": 2,
+        "degradeAfter": {
+        "time": 432000,
+        "brokenLabel": false
+        }
+    },
+    "bear_trap": {
+        "label": "Bear Trap",
+        "weight": 10,
+        "stackable": true
+    },
+    "weapon_stone_hatchet": {
+        "label": "Stone Hatchet",
+        "stackable": false,
+        "weight": 10,
+        "isWeapon": true
+    },
+    "bandit_1": {
+        "label": "Bandit 1",
+        "weight": 4,
+        "stackable": true
+    },
+    "weapon_vintagepistol": {
+        "stackable": false,
+        "isWeapon": true,
+        "weight": 10,
+        "label": "Vintage Pistol",
+        "degradeAfter": {
+        "time": 4665600,
+        "brokenLabel": false
+        }
+    },
+    "deck_weed": {
+        "label": "High Speed Deck",
+        "weight": 2,
+        "stackable": true
+    },
+    "cocaine_bag": {
+        "stackable": true,
+        "weight": 2,
+        "drug": true,
+        "label": "Cocaine Bag",
+        "degradeAfter": {
+        "time": 2160000,
+        "brokenLabel": "broken_drugs"
+        }
+    }
+}
