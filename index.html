@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Air Drops</title>
+  <link rel="shortcut icon" type="image/png" href="logo.png" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .dropdown {
@@ -32,7 +33,9 @@
 </head>
 <body class="bg-gray-900 text-white min-h-screen flex flex-col items-center pt-12 font-sans">
   <div class="text-center mb-6">
-    <h1 class="text-3xl font-bold">Create Air Drops</h1>
+    <h1 class="text-3xl font-bold">
+      <a href="https://npxfoulgaming.github.io/gulo/" class="text-white hover:text-gray-300">Create Air Drops</a>
+    </h1>
     <p class="text-sm text-gray-400 mt-1">creating airdrops</p>
   </div>
 
@@ -77,14 +80,14 @@
     const copyBtn = document.getElementById('copyBtn');
 
     let itemMap = {};
-    const maxAirdropItems = 10;
+    const maxAirdropItems = 100;
 
     fetch('items.json')
       .then(res => res.json())
       .then(data => itemMap = data)
       .catch(() => alert('Failed to load item map from items.json'));
 
-function changeType() {
+      function changeType() {
     dynamicFields.innerHTML = '';
     const type = typeSelector.value;
 
@@ -95,11 +98,11 @@ function changeType() {
         renderJobFields();
         document.getElementById('addItem5Btn').classList.add('hidden');
         document.getElementById('addItem10Btn').classList.add('hidden');
-    } else if (type === 'airdrop') {
+    } else if (type === 'airdrop' || type === 'weeklytask') { // Handle weekly task like airdrop
         mainActionBtn.innerText = '➕ Add Item';
         importSection.classList.add('hidden');
         readBtn.classList.add('hidden');
-        renderAirdropFields();
+        renderAirdropFields();  // Use the same fields as airdrop for weekly tasks
         document.getElementById('addItem5Btn').classList.remove('hidden');
         document.getElementById('addItem10Btn').classList.remove('hidden');
     } else if (type === 'spawn') {
@@ -109,18 +112,10 @@ function changeType() {
         renderSpawnFields();
         document.getElementById('addItem5Btn').classList.add('hidden');
         document.getElementById('addItem10Btn').classList.add('hidden');
-    } else if (type === 'weeklytask') {
-        mainActionBtn.innerText = '➕ Add Item';
-        importSection.classList.add('hidden');
-        readBtn.classList.add('hidden');
-        renderAirdropFields(); // Use the same fields as airdrop for weekly tasks
-        document.getElementById('addItem5Btn').classList.remove('hidden');
-        document.getElementById('addItem10Btn').classList.remove('hidden');
     }
 }
 
-    // Function to add Item Name and Amount fields (single or multiple based on amount)
-    function addItem() {
+function addItem() {
     const div = document.createElement('div');
     div.className = 'flex items-center gap-2 dropdown';
     div.innerHTML = `
@@ -132,7 +127,7 @@ function changeType() {
       <button onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-300 text-sm">Remove</button>
     `;
     dynamicFields.appendChild(div);
-  }
+}
 
   // Function to add multiple items at once (5x or 10x)
   function addMultipleItems(amount) {
@@ -187,16 +182,16 @@ function renderSpawnFields() {
       `;
     }
 
-    function handleAction() {
-      const type = typeSelector.value;
-      if (type === 'job') {
+function handleAction() {
+    const type = typeSelector.value;
+    if (type === 'job') {
         renderJobFields();
-      } else if (type === 'airdrop') {
-        renderAirdropFields();
-      } else if (type === 'spawn') {
+    } else if (type === 'airdrop' || type === 'weeklytask') {
+        renderAirdropFields();  // Ensure the fields for adding items are rendered
+    } else if (type === 'spawn') {
         copyConfig();
-      }
     }
+}
 
     function importJobs(event) {
       const file = event.target.files[0];
